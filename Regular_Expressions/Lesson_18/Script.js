@@ -30,5 +30,5 @@ document.write(/(\d{2}\.){2}\d{4}/.test(ex8_string));
 document.write("<br>Задача 10: ");
 let ex10_string = 'kartopolsev@gmail.com';
 // логин @ домен
-let ex10_RegExp = /\w+?@[a-z]+?\.[a-z]+/;
+let ex10_RegExp = /^\w+?@[a-z]+?\.[a-z]+/;
 document.write(ex10_RegExp.test(ex10_string));
