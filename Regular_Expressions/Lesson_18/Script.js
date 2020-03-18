@@ -14,7 +14,7 @@ document.write(/\.jpe?g/.test(ex4_string));
 // Задача 6
 document.write("<br>Задача 6: ");
 let ex6_string = '42';
-document.write(/\d{1,12}/.test(ex6_string));
+document.write(/^\d{1,12}$/.test(ex6_string));
 
 // Задача 8
 document.write("<br>Задача 8: ");
@@ -29,6 +29,6 @@ document.write(/(\d{2}\.){2}\d{4}/.test(ex8_string));
 // Задача 10
 document.write("<br>Задача 10: ");
 let ex10_string = 'kartopolsev@gmail.com';
-// логин @ домен
+// логин @ домен . область (при необходимости можно ввести более жёсткие условия)
 let ex10_RegExp = /^\w+?@[a-z]+?\.[a-z]+/;
 document.write(ex10_RegExp.test(ex10_string));
