@@ -3,6 +3,6 @@ My repository for JS tasks
 
 Regular_Expressions - DONE.
 
-Canvas - in progress.
+Canvas - in progress. (≈20%)
 
-Local_Storage - will be soon.
+Local_Storage - in progress. (2/5)
