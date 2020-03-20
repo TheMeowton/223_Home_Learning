@@ -13,8 +13,8 @@ let textarea_2 = document.getElementById("textarea_2");
 */
 let buttons_place = document.getElementById('buttons_place');
 /* 
-	Добавление изначального значения текстареа в локальное хранилище
-	если оно пустое
+Добавление изначального значения текстареа в локальное хранилище
+если оно пустое
 */
 if (localStorage["changes"] === undefined) {
 	localStorage["changes"] = '{"values": ["' + textarea_2.value + '"] }';
@@ -26,7 +26,7 @@ if (localStorage["changes"] === undefined) {
 */
 let changes = JSON.parse(localStorage["changes"]);
 
-// Переменная для хранения текущей версии значения текстареа
+// Переменная для хранения номера текущей версии значения текстареа
 let current = changes['values'].length-1;
 
 // Установка начальным значением значение последнего элемента changes
