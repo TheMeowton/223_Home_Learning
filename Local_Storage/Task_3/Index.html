@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Локальное Хранилище</title>
+		<style>
+			/* стиль для формы */
+			form[name="Registration"]{
+				background-color: lightblue;
+				width: 280px;
+				padding: 10px 10px 10px 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<p>Тема "Локальное Хранилище"</p>
+		<p>Задача 3:</p>
+
+		<!-- Не до конца понятно задание, поэтому форма произвольная-->
+
+		<form name="Registration" onsubmit="Reg_submit(event)">
+			<h2>Регистрация</h2>
+			<p>Логин:<br> 
+				<input type="text"></p>
+			<p>Пароль:<br> 
+				<input type="text"></p>
+			<p>Вам нравится программирование?<br>
+				<input type="checkbox"> Да/Нет </p>
+			<p>Сколько у Вас компьютеров?<br>
+				<input name="test" type="radio">Один 
+				<input name="test" type="radio">Два
+				<input name="test" type="radio">Больше двух
+			</p>
+			<p>Какого типа Ваш основной компьютер?<br> 
+				<select>
+					<option>Выберите тип..</option>
+					<option>Настольный</option>
+					<option>Ноутбук(Нетбук/Ультрабук)</option>
+					<option>Моноблок</option>
+				</select>
+			</p>
+			<p>Какие у Вас доп. компьютеры?<br> 
+				<select multiple>
+					<option>Выберите один или несколько...</option>
+					<option>Настольный</option>
+					<option>Ноутбук(Нетбук/Ультрабук)</option>
+					<option>Моноблок</option>
+				</select>
+			</p>
+			<p>Информация о Вас:<br> 
+				<textarea></textarea>
+			</p>
+			<p> 
+				<input type="submit" value="Зарегистрироваться">
+			</p>
+		</form>
+		<!-- Подключение скрипта -->
+		<script type="text/javascript" src="Script.js"></script>
+	</body>
+</html>
