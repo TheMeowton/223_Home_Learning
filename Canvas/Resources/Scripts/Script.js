@@ -858,9 +858,9 @@ function toMenu(){
 // >>>>>>>>>>>>>> ЗАНУЛЕНИЕ ВСЕХ ЗНАЧИМЫХ ПЕРЕМЕННЫХ <<<<<<<<<<<<
 function refreshGame(){
 	// УДАЛЕНИЕ КНОПКИ РЕСТАРТ И МЕНЮ
-	restart_btn.src="Resources/Audios/Restart.png";
+	restart_btn.src="Resources/Buttons/Restart.png";
 	restart_btn.remove();
-	menu_btn.src="Resources/Audios/Menu.png";
+	menu_btn.src="Resources/Buttons/Menu.png";
 	menu_btn.remove();
 
 	// ОЧИСТКА КАНВАСА
