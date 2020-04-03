@@ -3,6 +3,6 @@ My repository for JS tasks
 
 Regular_Expressions - DONE.
 
-Canvas - DONE. ( github.io блокирует файл =( )
+Canvas - DONE. 
 
 Local_Storage - in progress. (4/5)
