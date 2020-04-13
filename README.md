@@ -8,3 +8,5 @@ Canvas - DONE.
 Local_Storage - in progress. (4/5)
 
 Type_Symbol - DONE.
+
+Iterators_Generators - DONE.
