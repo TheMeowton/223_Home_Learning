@@ -5,7 +5,7 @@ Regular_Expressions - DONE.
 
 Canvas - DONE. 
 
-Local_Storage - in progress. (4/5)
+Local_Storage - 4/5
 
 Type_Symbol - DONE.
 
