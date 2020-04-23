@@ -12,3 +12,5 @@ Type_Symbol - DONE.
 Iterators_Generators - DONE.
 
 OOP - 4/5.
+
+Vue - DONE.
