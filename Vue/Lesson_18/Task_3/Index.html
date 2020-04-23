@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Task3</title>
+</head>
+<body>
+	<p>Фреймворк Vue</p>
+	<p>Тема 18 | Задача 3</p>
+	<div id="div">
+		<a href="#!" v-on:click.left="btnClickd('left')" v-on:click.middle="btnClickd('middle')" v-on:click.right="btnClickd('right')">Вывести нажатую кнопку мыши в абзац</a>
+		<p>Кнопка мишь нажатая на ссылке: {{ button }}</p>
+	</div>
+	<!-- Подключение скриптов-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script type="text/javascript" src="Script.js"></script>
+</body>
+</html>

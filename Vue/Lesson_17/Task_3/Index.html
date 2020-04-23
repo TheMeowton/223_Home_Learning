@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Task3</title>
+</head>
+<body>
+	<p>Фреймворк Vue</p>
+	<p>Тема 17 | Задача 3</p>
+	<div id="div">
+		<p>Неизменимый абзац (c v-once):</p>
+		<p v-once>{{ text }}</p>
+		<p>Абзац который можно поменять (без v-once):</p>
+		<p>{{ text }}</p>
+		<button v-on:click="changeText">Попытаться поменять текст абзацев</button>
+	</div>
+	<!-- Подключение скриптов-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script type="text/javascript" src="Script.js"></script>
+</body>
+</html>

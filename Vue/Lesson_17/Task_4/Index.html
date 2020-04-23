@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Task4</title>
+</head>
+<body>
+	<p>Фреймворк Vue</p>
+	<p>Тема 17 | Задача 4</p>
+	<div id="div">
+		<p>Тут будет текст с рабочими тегами: <span v-html="textWithTags"></span></p>
+		<p> А тут теги будут просто как текст: {{ textWithTags }}</p>
+		<button v-on:click="showText">Вывести текст с тегами</button>
+	</div>
+	<!-- Подключение скриптов-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script type="text/javascript" src="Script.js"></script>
+</body>
+</html>

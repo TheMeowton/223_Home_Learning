@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Task11</title>
+</head>
+<body>
+	<p>Фреймворк Vue</p>
+	<p>Тема 10 | Задача 11</p>
+	<div id="div">
+		<select v-model="selected">
+			<option v-for="option in options">{{ option }}</option>
+		</select>
+		<p>Вы выбрали: {{ selected }}</p>
+	</div>
+	<!-- Подключение скриптов-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script type="text/javascript" src="Script.js"></script>
+</body>
+</html>

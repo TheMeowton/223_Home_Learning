@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Task8</title>
+</head>
+<body>
+	<p>Фреймворк Vue</p>
+	<p>Тема 10 | Задача 8</p>
+	<div id="div">
+		<p>Выберите Ваш родной язык:</p>
+		<input name="lang" type="radio" v-model="language" value="Русский">ru</input>
+		<input name="lang" type="radio" v-model="language" value="Английский">en</input>
+		<input name="lang" type="radio" v-model="language" value="Немецкий">de</input>
+		<p>Вы выбрали: {{ language }}</p>
+	</div>
+	<!-- Подключение скриптов-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script type="text/javascript" src="Script.js"></script>
+</body>
+</html>
