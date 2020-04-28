@@ -15,4 +15,4 @@ OOP - 4/5.
 
 Vue - DONE.
 
-Set_SetWeak - DONE.
+Set_WeakSet - DONE.
